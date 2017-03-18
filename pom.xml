@@ -4,11 +4,11 @@
 				                               http://maven.apache.org/maven-v4_0_0.xsd">
 											       <modelVersion>4.0.0</modelVersion>
 
-												       <groupId>org.sonatype.mavenbook.multi</groupId>
-													       <artifactId>simple-parent</artifactId>
+												       <groupId>de.roskenet.spring-fx-examples</groupId>
+													       <artifactId>parent</artifactId>
 														       <packaging>pom</packaging>
 															       <version>1.0</version>
-																       <name>Multi Chapter Simple Parent Project</name>
+																       <name>Multi Chapter Parent Project</name>
 
 																	       <modules>
        <module>part_1</module>
