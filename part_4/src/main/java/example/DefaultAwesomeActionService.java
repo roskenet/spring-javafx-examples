@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class DefaultAwesomeActionService implements AwesomeActionService {
 
-    private ResourceBundle bundle = ResourceBundle.getBundle("i18n.helloworld");
+    private ResourceBundle bundle = ResourceBundle.getBundle("example.helloworld");
 
     @Override
     public String processName(final String name) {
