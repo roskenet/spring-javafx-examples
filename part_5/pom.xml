@@ -15,7 +15,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
-    <springboot-javafx.version>1.3.16</springboot-javafx.version>
+    <springboot-javafx.version>1.3.17</springboot-javafx.version>
     <springboot-javafx-test.version>0.0.4</springboot-javafx-test.version>
   </properties>
 
