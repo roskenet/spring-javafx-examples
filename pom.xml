@@ -1,23 +1,44 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-				                               http://maven.apache.org/maven-v4_0_0.xsd">
-											       <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+				      http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
 
-												       <groupId>de.roskenet.spring-fx-examples</groupId>
-													       <artifactId>parent</artifactId>
-														       <packaging>pom</packaging>
-															       <version>1.0</version>
-																       <name>Multi Chapter Parent Project</name>
+  <groupId>de.roskenet.spring-fx-examples</groupId>
+  <artifactId>parent</artifactId>
+  <packaging>pom</packaging>
+  <version>2.0.0</version>
+  <name>Multi Chapter Parent Project</name>
 
-																	       <modules>
-       <module>part_1</module>
-       <module>part_2</module>
-       <module>part_3</module>
-       <module>part_4</module>
-       <module>part_5</module>
-       <module>part_6_1</module>
-       <module>part_6_2</module>
-	   <module>part_6_3</module>
-																						       </modules>
-																							   </project>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>1.5.2.RELEASE</version>
+    <relativePath /> <!-- lookup parent from repository -->
+  </parent>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>1.8</java.version>
+    <springboot-javafx.version>1.3.22</springboot-javafx.version>
+  </properties>
+
+  <modules>
+    <module>part_1</module>
+    <module>part_2</module>
+    <module>part_3</module>
+    <module>part_4</module>
+    <module>part_5</module>
+    <module>part_6_1</module>
+    <module>part_6_2</module>
+  </modules>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>de.roskenet</groupId>
+        <artifactId>springboot-javafx-support</artifactId>
+        <version>${springboot-javafx.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
