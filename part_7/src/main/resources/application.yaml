@@ -4,5 +4,4 @@ spring:
         
 javafx:
     title: MyCoolApp
-    stage:
-        resizable: false
+    
