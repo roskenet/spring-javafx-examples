@@ -30,6 +30,7 @@
     <module>part_5</module>
     <module>part_6_1</module>
     <module>part_6_2</module>
+    <module>part_7</module>
   </modules>
 
   <dependencyManagement>
