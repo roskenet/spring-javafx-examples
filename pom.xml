@@ -31,6 +31,7 @@
     <module>part_6_1</module>
     <module>part_6_2</module>
     <module>part_7</module>
+    <module>part_8</module>
   </modules>
 
   <dependencyManagement>
