@@ -12,16 +12,13 @@ public class HelloworldController {
     
     @FXML
     private void onMousePressed(final MouseEvent event) {
-
         xOffset = event.getSceneX();
         yOffset = event.getSceneY();
     }
    
     @FXML
     private void onMouseDragged(final MouseEvent event) {
-        // TODO Auto-generated method stub
         GUIState.getStage().setX(event.getScreenX() - xOffset);
         GUIState.getStage().setY(event.getScreenY() - yOffset);
-
     }
 }
