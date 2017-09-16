@@ -6,3 +6,4 @@ javafx:
     title: MyCoolApp
     stage:
         resizable: true
+        style: undecorated
