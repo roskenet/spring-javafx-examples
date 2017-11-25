@@ -7,6 +7,6 @@ import de.felixroske.jfxsupport.AbstractJavaFxApplicationSupport;
 @SpringBootApplication
 public class Main extends AbstractJavaFxApplicationSupport{
     public static void main(String[] args) {
-        launchApp(Main.class, HelloworldView.class, args);
+        launch(Main.class, HelloworldView.class, args);
     }
 }
