@@ -18,8 +18,9 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <java.version>1.8</java.version>
-    <springboot-javafx.version>2.1.6</springboot-javafx.version>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <springboot-javafx.version>3.0.0-SNAPSHOT</springboot-javafx.version>
   </properties>
 
   <modules>
